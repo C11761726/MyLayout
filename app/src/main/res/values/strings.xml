@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyLayout</string>
+    <string name="qygb_set_default">设为默认</string>
+    <string name="qygb_add_area">添加区域</string>
+    <string name="qygb_text_broadcast_start">开始广播</string>
+    <string name="qygb_set_area_name">设置区域名称</string>
+    <string name="confirm">确认</string>
+    <string name="cancle">取消</string>
+</resources>

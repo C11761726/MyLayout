@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gun">
+        <item>一号机2枪</item>
+        <item>一号机3枪</item>
+        <item>一号机4枪</item>
+        <item>一号机5枪</item>
+    </string-array>
+</resources>

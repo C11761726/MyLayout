@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:id="@+id/gl_qygb_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="6"></GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_default_selected"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@color/qygb_btn_bg"
+            android:drawableLeft="@drawable/icon_default_selected"
+            android:paddingLeft="30dp"
+            android:text="@string/qygb_set_default"
+            android:textColor="@color/qygb_btn_text_color"
+            android:textSize="@dimen/qygb_btn_text_size" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:background="@color/qyqb_text_bg">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tv_broadcast_start"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_toLeftOf="@id/tv_broadcast_start"
+                android:background="@drawable/icon_broadcast" />
+
+            <TextView
+                android:id="@+id/tv_broadcast_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/qygb_text_broadcast_start"
+                android:textColor="@color/qygb_text_text_color"
+                android:textSize="@dimen/qygb_btn_text_size" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_add_area"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@color/qygb_btn_bg"
+            android:drawableLeft="@drawable/icon_plus"
+            android:paddingLeft="30dp"
+            android:text="@string/qygb_add_area"
+            android:textColor="@color/qygb_btn_text_color"
+            android:textSize="@dimen/qygb_btn_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

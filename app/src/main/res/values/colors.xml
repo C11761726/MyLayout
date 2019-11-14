@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="left_root">#0069B7</color>
+    <color name="btn_text_color">#626866</color>
+    <color name="btn_text_select_color">#004472</color>
+    <color name="online">#387A37</color>
+    <color name="offline">#B20017</color>
+    <color name="in_call">#DEB335</color>
+    <color name="qygb_btn_bg">#0075AA</color>
+    <color name="qygb_btn_text_color">#FFFFFF</color>
+    <color name="qyqb_text_bg">#BFBFBF</color>
+    <color name="qygb_text_text_color">#303030</color>
+    <color name="qygb_add_area_bg">#575757</color>
+    <color name="qygb_btn_color">#2B2B2B</color>
+    <color name="qygb_card_bg_green">#007130</color>
+    <color name="qygb_client_list_bg">#C82F2F2F</color>
+    <color name="ssjk_video_bg">#1B1B1B</color>
+    <color name="ssjk_text_color">#9A9A9A</color>
+    <color name="lslx_play_bg">#0069B7</color>
+    <color name="lslx_video_area_bg">#E5E5E5</color>
+    <color name="lslx_spinner_stroke">#444444</color>
+</resources>

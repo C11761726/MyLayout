@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+    android:background="@color/left_root"
+    -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:background="@color/left_root"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="175dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_call" />
+
+        <Button
+            android:id="@+id/btn_hangup"
+            android:layout_width="175dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_hangup"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_watch"
+            android:layout_width="175dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_watch"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_set"
+            android:layout_width="175dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_set"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/btn_order"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gl_oil_gun_card"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:rowCount="6"></GridLayout>
+
+</LinearLayout>

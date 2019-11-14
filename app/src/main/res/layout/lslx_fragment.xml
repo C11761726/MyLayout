@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_date_pic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_drop_down_shape"
+            android:theme="@style/Spinner"></TextView>
+
+        <TextView
+            android:id="@+id/tv_gun_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_drop_down_shape"
+            android:text="一号机2枪"
+            android:theme="@style/Spinner"></TextView>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_search" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.9"
+            android:background="@color/lslx_play_bg"
+            android:drawableLeft="@drawable/icon_play"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="130dp"
+            android:text="  播  放"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_35_px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@color/lslx_video_area_bg"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <GridLayout
+                android:id="@+id/gl_lslx_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+
+                android:columnCount="2"
+                android:orientation="horizontal" />
+        </ScrollView>
+
+        <VideoView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp"
+            android:layout_weight="7" />
+    </LinearLayout>
+
+</LinearLayout>

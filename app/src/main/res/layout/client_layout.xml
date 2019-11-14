@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/cb_client_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@drawable/check_box" />
+
+    <TextView
+        android:id="@+id/tv_client_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="9"
+        android:paddingTop="20dp"
+        android:text="一号机1枪"
+        android:textColor="@color/qygb_btn_text_color"
+        android:textSize="@dimen/qygb_add_area_text_size" />
+
+</LinearLayout>
